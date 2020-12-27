@@ -7,4 +7,4 @@ Requires:
 - kivy 2.0.0
 
 ## Screenshot
-[[./img/demo.png]]
+![Demo](./img/demo.png)
