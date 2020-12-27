@@ -43,7 +43,7 @@ class CalculadoraForm(GridLayout):
             '4', '5', '6', '-', 
             '1', '2', '3', '*',
             '.', '0', '=', '/'):
-            self.nums.append(Button(text=x, font_size=60, color=color[2]))
+            self.nums.append(Button(text=x, font_size=45, color=color[2]))
         
             if x.isdigit():
                 self.nums[-1].background_color = color[1]
