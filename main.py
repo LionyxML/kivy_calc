@@ -33,6 +33,7 @@ class CalculadoraForm(GridLayout):
                     self.resultado.text += ')'
                 try:
                     self.processa = str(self.resultado.text.replace('ANS', str(self.ans)))
+                    self.processa = str(self.resultado.text.replace('^', '**'))
                     self.ans = float(eval(self.processa))
                     self.resultado.text = "{:.3e}".format(self.ans)
                 except:
@@ -47,9 +48,9 @@ class CalculadoraForm(GridLayout):
 
         for x in ('(', ')', 'C', '<',
             'sin(', 'cos(', 'tan(', 'log10',
-            'asin(', 'acos(', 'atan(', '10**',
-            'log', '**2', 'sqrt(', 'abs',
-            'e**', '**', '**(1/', '1/(',
+            'asin(', 'acos(', 'atan(', '10^',
+            'log', '^2', 'sqrt(', 'abs',
+            'e^', '^', '^(1/', '1/(',
             'ANS', ')=', 'degrees(', 'radians(', 
             'e', 'E+','E-', 'pi',  
             '7', '8', '9', '+',
