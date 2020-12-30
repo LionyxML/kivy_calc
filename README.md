@@ -1,4 +1,4 @@
-# rx-kivy_ccalc
+# kivy_ccalc
 
 This is a simple portable calculator that accepts complex numbers written with Kivy and Python.
 
