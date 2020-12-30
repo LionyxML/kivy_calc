@@ -7,4 +7,5 @@ Requires:
 - kivy 2.0.0
 
 ## Screenshot
-![Demo](./img/demo.png)
+![Demo Animated](./img/demo.gif)
+![Demo Static](./img/demo.png)
